@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#imagem{
+    background-image:url(https://uploads.alternativanerd.com.br/wp-content/uploads/2025/08/AN_Clash-Royale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin:0px 0px 300px 0px;
+ 
+}
+
+.cabeçario{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 1em;
+    font-size: 4vh;
+    align-content: center;
+    color:white;
+    height: 100px;
+}
+nav {
+padding:100px;
+font-size: 55px;
+background-color: aqua;
+}
+
+
+nav:hover{
+    color: blue; 
+}
+
+#imagem2{
+    display: flex;
+    padding: 5px;
+    gap: 1em;  
+    height: 70vh;
+    margin: -30px 30px 60px 100px;
+}
+     
+
+.sobreclash{
+    margin: 2rem;
+    align-items: center;
+    font-size: 4vh;
+}
+
+
