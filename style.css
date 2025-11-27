@@ -2,18 +2,17 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 #imagem{
-    background-image:url(https://uploads.alternativanerd.com.br/wp-content/uploads/2025/08/AN_Clash-Royale.jpg);
+    background-image:url(imgprincipal.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin:0px 0px 300px 0px;
- 
+    margin:0px 0px 4rem 0px;
 }
 
-.cabeçario{
+.cabecario{
     background-color: black;
     display:flex;
     justify-content: center;
@@ -25,29 +24,121 @@
     height: 100px;
 }
 nav {
-padding:100px;
+padding:2rem;
 font-size: 55px;
-background-color: aqua;
 }
 
 
-nav:hover{
-    color: blue; 
-}
 
 #imagem2{
     display: flex;
-    padding: 5px;
     gap: 1em;  
-    height: 70vh;
-    margin: -30px 30px 60px 100px;
+    height: 90vh;
+    margin: 4rem 4rem 1rem 4rem;
 }
      
 
 .sobreclash{
-    margin: 2rem;
+    margin: 30px 30px 30px 30px;
     align-items: center;
     font-size: 4vh;
 }
 
 
+a {
+  text-decoration: none;
+  color:white
+}
+
+a:hover{
+    color:darkblue
+}
+
+nav a{
+    color:white;
+}
+
+#logo{
+    display: flex;
+    align-items:flex-end;
+    height:3rem;
+}
+
+
+.botoes{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:3rem;
+    padding: 40px;
+    margin:0px 0px 0px -40px
+}
+
+#vd1{ 
+  
+    height: auto;
+    display: block;
+    margin:20px auto;
+    width:60%;
+    border-radius: 10px;
+}
+
+#vd2{
+    height:auto;
+    display: block;
+    margin: 0px 20px 40px auto;
+    width: 38%;
+    border-radius: 10px;
+}
+
+#algumasnot{
+    background-image: url(https://external-preview.redd.it/GB5Adyp5zzQcoI4Jpbgf8tKfJ6GxgHmT8NHgtcrpi3o.png?width=640&crop=smart&auto=webp&s=b48e3df6a1f6e6f8c8816d18bed72caed0bf7a42); 
+    display:flex;
+    align-items: center;
+    margin: 2.4rem 0px 0px 0px;
+    font-size: 30px;
+
+}
+#videos{
+    
+    display:flex;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:20px 0px 15px -40px;
+    padding:3rem;
+}
+
+#img3{
+    width:30%;
+    margin: 20px 20px 0px 6rem;
+    
+}
+
+#noticias{
+    font-size: 40px;
+    align-items: center;
+    color:white;
+    margin:0px 8rem 0px 0px
+}
+
+#titulo{
+    font-size: 30px;
+    align-content: center;
+    height:60vh;
+    background-repeat: no-repeat;
+    margin:30px 0px 0px 21rem; 
+    background-size: cover;
+} 
+
+#sobre{
+    padding: 8rem;
+    font-size: 25px;
+    margin: 0px 60px 0px -110px;
+}
+
+.c1{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    margin: 0px 0px 0px -4rem;
+}
